@@ -1,0 +1,14 @@
+list_of_numbers = []#create a list for input
+def average(list_of_numbers): #Define the Average function
+    avg = sum(list_of_numbers) / len(list_of_numbers)
+    print(avg) 
+while True:
+    input_number =int(input("Enter a number:")) #user input
+    list_of_numbers.append(input_number)
+    #print(len(list_of_numbers))
+    if len(list_of_numbers) != 0:#avoid zero division        
+        #print(f"Input Numbers are:" list_of_numbers, sep = ", " )
+       average(list_of_numbers)       
+    if input_number < 0:
+       break
+

@@ -1,0 +1,25 @@
+"""#initiate input variables
+string = "DataScience"
+alternate =""
+# using for loop to convert alternative case into uppercase
+for i,x in  enumerate(string):
+    if (i%2 == 0):
+       alternate += (string[i].upper())
+    else:
+      alternate += (string[i].lower())
+print(alternate)"""
+
+# intialise the input variable
+sentence = "I am learning to code"
+#convert a sentece to list
+list = sentence.split()
+print(list)
+alternate_list = []
+# using for loop to convert alternative case into uppercase
+for i,x in enumerate(list):
+    if (i%2 == 0):
+       alternate_list += (list[i].lower())
+    else:
+      alternate_list += (list[i].upper())
+print(alternate_list)
+print(" ".join(alternate_list))

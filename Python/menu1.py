@@ -1,0 +1,7 @@
+item1 = input(" ")
+item2 = input(" ")
+item3 = input(" ")
+print("Ordered conformation! you have ordered:")
+print(item1 )      
+print(item2)        
+print(item3)
